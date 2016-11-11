@@ -34,7 +34,7 @@ contact:
 order:
   - [general, 0, 0, 0]
   - [education, 1, Education, 0]
-  - [publications, 1, Publications, 0]
+  # - [publications, 1, Publications, 0]
   - [work, 1, Work experience, experience]
   - [projects, 1, Selected projects, 0]
   - [courses, 1, Selected courses, latextype_double_items]
@@ -50,7 +50,7 @@ general:
   #   description: CPR HCP (Health Care Provider), Lebanese driving license
 
 skills:
-  - Python (incl. SciPy stack), Git, Bash, Matlab, gnuplot, \LaTeX
+  - Python (incl. SciPy stack), R (incl. tidyverse), Git, Bash, Matlab, gnuplot, \LaTeX
   - Linux (Ubuntu), Microsoft Windows (XP to 10)
   - Vim, Emacs, Microsoft Office (Word, Excel, Powerpoint)
 
@@ -63,70 +63,25 @@ skills:
 #     description: German, Mandarin, Russian, Krio
 
 work:
-  - date: Spring 2012
-    about: Junior Engineer
-    employer: Starquip Integrated Systems, Ltd
-    location: Toronto, ON
-    url: http://starquip.com
+  - date: 2014
+    about: Tutor
+    employer: San Jacento Community College Student Success Center
+    location: Pasadena, TX
+    url: http://www.sanjac.edu/student-services/helpful-resources-facilities/tutoring/student-success-center-central
     notes:
-      - Assisted in the mechanical design of custom pneumatic lift-assist devices
-      - Created modular assemblies and circuits
-      - Reduced design time for new systems
-      - Converted 2D drawings to 3D assemblies
-      - Produced ASME-compliant drawings
+      - Tutored students in math (algebra through differential equations), chemistry, physics, and biology
 
-  - date: Fall 2011
-    about: Junior Project Engineer
-    employer: Kevin Quan Studios, Ltd
-    location: Toronto, ON
-    url: http://www.kqbikes.com
+  - date: 2010--2013
+    about: Student Researcher
+    department: Department of Molecular & Cellular Medicine
+    employer: Texas A\&M Health Science Center
+    location: College Station, Texas
+    url: https://medicine.tamhsc.edu
     notes:
-      - Completed basic and intermediate Solidworks instruction
-      - Created assemblies and drawings of mountain and racing bicycles
-      - Wrote airfoil generator and exporter using LibreOffice Calc, Python
-      - Performed 2D and 3D CFD analysis of airfoils and bicycles
-      - Determined the optimum configuration for several racing bicycles
-      - Designed tooling molds and parts for various bicycle components
-
-  - date: Winter 2011
-    about: Hardware Associate
-    employer: Intelligent Mechatronics Systems, Inc
-    location: Waterloo, ON
-    url: http://www.intellimec.com
-    notes:
-      - Prototyped hardware solutions for future products
-      - Provided general assistance to lead design engineers
-
-  - date: Spring 2010
-    about: Research Assistant
-    department: Multiscale Additive Manufacturing Lab
-    employer: University of Waterloo
-    location: Waterloo, ON
-    url: http://rpl.uwaterloo.ca
-    notes:
-      - Designed, procured, and built essential parts for the enclosure, printhead assembly, and environmental isolation system for a solid freeform fabrication workstation
-      - Workstation produces 3D scaffolds for bone and cartilage regrowth
-      - Performed image processing on electron micrographs using Octave
-
-  - date: Fall 2009
-    about: Research Assistant
-    department: Computer Vision and Mobile Robotics Lab
-    employer: American University of Beirut
-    location: Beirut, Lebanon
-    url: http://www.aub.edu.lb/fea/me/research_labs/cvl/Pages/home.aspx
-    notes:
-      - Researched and developed a positional navigation system for robots
-      - Quantized Inertial Measurement Unit (IMU) error
-
-  - date: Winter 2009
-    about: Engineer in Training
-    employer: Sierra Construction Systems, Ltd
-    location: Freetown, Sierra Leone
-    url: http://www.sierraconstructionsystems.com
-    notes:
-      - Computerized payroll and significantly saved time and resources using Microsoft Excel, Word, and VBA programming
-      - Payroll productivity increased by approximately 6000\%
-      - Performed cost and time estimation for various construction projects
+      - Performed molecular biology experiments on human cancer cell lines
+      - Assisted other researchers with experiments including animal models
+      - Attended and participated in lab meetings
+      - Presented work at a poster session sponsored by the university
 
 education:
   - date: 2013--Present
@@ -141,17 +96,10 @@ education:
     school: Texas A\&M University
     location: College Station, Texas
     major: Biochemistry
-    # affiliation: Mechatronics Laboratory
+    minor: Mathematics
+    GPA: 3.7 / 4.0
     urls:
       school: http://biochemistry.tamu.edu
-      # affiliation: www.mechatronics.me.kyoto-u.ac.jp
-  # - date: 2008--2013
-  #   school: University of Waterloo
-  #   location: Waterloo, ON
-  #   major: BASc, Honours Mechatronics Engineering
-  #   urls:
-  #     school: http://www.uwaterloo.ca
-  #     major: https://uwaterloo.ca/mechanical-mechatronics/engineering/program-overview
 
 projects:
   - Project
